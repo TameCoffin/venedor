@@ -1,0 +1,40 @@
+:root {
+    --venblue: #13BFCB;
+    --tophead: #F5F5F5;
+    --fontgrey: #898989;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------------------------------------------------------------------HEADER---------------------------------------------------- */
+
+#topHeader {
+    background-color: var(--tophead);
+    color: var(--fontgrey);
+    border-top: 4px solid var(--venblue);
+}
+
+.top-header-text {
+    padding-top: 7px;
+}
+
+.nav-link {
+    color: var(--fontgrey);
+}
+
+.login-link {
+    color: var(--venblue);
+}
+
+.account-link {
+    color: var(--venblue);
+}
