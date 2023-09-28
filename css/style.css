@@ -2,6 +2,8 @@
     --venblue: #13BFCB;
     --tophead: #F5F5F5;
     --fontgrey: #898989;
+    --font1:'Zilla Slab', serif;
+    --font2: 
 }
 
 * {box-sizing: border-box;}
@@ -9,6 +11,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 a {
@@ -16,6 +19,8 @@ a {
 }
 
 /* --------------------------------------------------------------------HEADER---------------------------------------------------- */
+
+/* TOP HEADER */
 
 #topHeader {
     background-color: var(--tophead);
@@ -37,4 +42,101 @@ a {
 
 .account-link {
     color: var(--venblue);
+}
+
+/* MID HEADER */
+
+#midHeader {
+    padding: 50px 5px;
+}
+
+.venedor-logo {
+    font-family: var(--font1);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.ve {
+    border: var(--venblue) solid;
+    border-radius: 50%;
+    background-color: var(--venblue);
+    padding: 2px;
+    margin: 0;
+    color: white;
+}
+
+.nedor {
+    margin-left: -19px;
+}
+
+.period {
+    margin-left: -16px;
+    color: var(--venblue);
+}
+
+
+
+.us-dollar {
+    color: var(--fontgrey);
+    background-color: var(--tophead);
+    padding: 10px 15px;
+}
+
+.english {
+    color: var(--fontgrey);
+    background-color: var(--tophead);
+    padding: 10px 15px;
+}
+
+.items {
+    color: white;
+    background-color: var(--venblue);
+    padding: 10px 15px;
+}
+
+/* BOTTOM HEADER */
+
+.item-links:first-child {
+    margin-left: 0;
+    padding-left: 0;
+    color: black;
+}
+
+.item-links:first-child:hover {
+    color: var(--venblue);
+}
+
+.item-links {
+    padding: 0 30px;
+    color: black;
+}
+
+.item-links:hover {
+    color: var(--venblue);
+}
+
+#itemLinks {
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: 100%;
+}
+
+.search-inner {
+    position: relative;
+}
+
+.search-bar {
+    height: 50px;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+}
+
+.search-bar-input {
+    height: 40px;
+}
+
+.search-button {
+    height: 40px;
+    width: 40px;
 }
