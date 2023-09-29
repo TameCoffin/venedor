@@ -3,7 +3,7 @@
     --tophead: #F5F5F5;
     --fontgrey: #898989;
     --font1:'Zilla Slab', serif;
-    --font2: 
+    --vendarkblue: #434B4D;
 }
 
 * {box-sizing: border-box;}
@@ -139,4 +139,51 @@ a {
 .search-button {
     height: 40px;
     width: 40px;
+}
+
+/* HERO SECTION */
+
+.hero-inner {
+    position: relative;
+}
+
+.hero-blurb {
+    position: absolute;
+    top: 120px;
+    right: 140px;
+}
+
+.new-hero {
+    background-color: var(--venblue);
+    color: white;
+    margin: 0;
+    padding: 5px 25px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.men-collection-hero {
+    background-color: var(--vendarkblue);
+    padding: 5px 25px;
+    color: white;
+    width: 330px;
+}
+
+.collection-hero-p {
+    margin-top: 23px;
+    font-weight: 400;
+}
+
+.hero-shop {
+    background-color: var(--vendarkblue);
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px
+}
+
+#heroSection {
+    background-image: url(../media/hero_wider.png);
+    border: 1px solid;
+    margin: 30px 0;
+    height: 550px;
 }
